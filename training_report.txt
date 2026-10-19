@@ -1,0 +1,17 @@
+Training completed from SpamSmsDataset.xlsx
+
+Rows used: 5574
+Labels: ['ham', 'spam']
+
+Classification report on held-out test split:
+              precision    recall  f1-score   support
+
+         ham       0.97      1.00      0.99       966
+        spam       1.00      0.83      0.91       149
+
+    accuracy                           0.98      1115
+   macro avg       0.99      0.92      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+Note: the classifier predicts the dataset's spam/ham classes; it is not a separately trained scam classifier.
