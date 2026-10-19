@@ -90,7 +90,7 @@ on labeled SMS messages, so its result may be less reliable for emails or chats.
 Use simple English.
 """
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model = "gemini-3.5-flash-lite",
         contents=prompt
     )
     return response.text or "Gemini did not return an explanation."
